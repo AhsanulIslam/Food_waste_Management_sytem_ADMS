@@ -1,0 +1,1 @@
+# Food_waste_Management_sytem_ADMS

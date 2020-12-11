@@ -1,0 +1,77 @@
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\FoodWasteMS.exe.config
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\FoodWasteMS.exe
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\FoodWasteMS.pdb
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\Bunifu_UI_v1.4.dll
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.Properties.Resources.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.csproj.GenerateResource.Cache
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.exe
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.pdb
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.Addproduct.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.RemoveProduct.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.UpdateProduct.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.ReplaceOrderRequest.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.OrderCustomer.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.AssiginDeliveryCUSTOMER.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.AssignDeliverytoSHOPkeeper.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.Login.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.signUp.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MenuDeliveryBoy.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MenuManager.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MenuCustomer.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.csprojAssemblyReference.cache
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.csproj.CoreCompileInputs.cache
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.csproj.CopyComplete
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.shopkeeperchooseSoftDrink.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.shopkeeperChooseItemCake.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MenuShopkeepers.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.CancelOrderShopkeeper.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.ViewOrderShopkeeper.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.managerCategoryView.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.customerChooseItemCake.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.customerChooseitemSoftDrink.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.SetDiscount.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\Oracle.DataAccess.dll
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MessageCustomer.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.User_Customer.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.History.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.OrderListForCust.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.userMgr.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.userDelboy.resources
+C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.userShopkeeper.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\FoodWasteMS.exe.config
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.exe
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.pdb
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\FoodWasteMS.exe
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\FoodWasteMS.pdb
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.csprojResolveAssemblyReference.cache
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.Addproduct.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.AssiginDeliveryCUSTOMER.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.AssignDeliverytoSHOPkeeper.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.CancelOrderShopkeeper.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.customerChooseItemCake.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.customerChooseitemSoftDrink.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.History.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.Login.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.managerCategoryView.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MenuCustomer.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MenuDeliveryBoy.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MenuManager.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MessageCustomer.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.OrderListForCust.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.SetDiscount.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.shopkeeperchooseSoftDrink.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.shopkeeperChooseItemCake.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MenuShopkeepers.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.OrderCustomer.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.Properties.Resources.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.RemoveProduct.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.ReplaceOrderRequest.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.signUp.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.UpdateProduct.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.userDelboy.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.userMgr.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.userShopkeeper.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.User_Customer.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.ViewOrderShopkeeper.resources
+G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.csproj.GenerateResource.Cache

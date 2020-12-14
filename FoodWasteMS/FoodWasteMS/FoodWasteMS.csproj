@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{034D0AAF-80A6-42AE-BC25-40D93CD696CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FoodWasteMS</RootNamespace>
+    <AssemblyName>FoodWasteMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Cart-black.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.4">
+      <HintPath>..\..\..\..\..\Documents\Bunifu_UI_v1.4.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=2.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addproduct.Designer.cs">
+      <DependentUpon>Addproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssiginDeliveryCUSTOMER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssiginDeliveryCUSTOMER.Designer.cs">
+      <DependentUpon>AssiginDeliveryCUSTOMER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignDeliverytoSHOPkeeper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignDeliverytoSHOPkeeper.Designer.cs">
+      <DependentUpon>AssignDeliverytoSHOPkeeper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CancelOrderShopkeeper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CancelOrderShopkeeper.Designer.cs">
+      <DependentUpon>CancelOrderShopkeeper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customerChooseItemCake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customerChooseItemCake.Designer.cs">
+      <DependentUpon>customerChooseItemCake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customerChooseitemSoftDrink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customerChooseitemSoftDrink.Designer.cs">
+      <DependentUpon>customerChooseitemSoftDrink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="managerCategoryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="managerCategoryView.Designer.cs">
+      <DependentUpon>managerCategoryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCustomer.Designer.cs">
+      <DependentUpon>MenuCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuDeliveryBoy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuDeliveryBoy.Designer.cs">
+      <DependentUpon>MenuDeliveryBoy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuManager.Designer.cs">
+      <DependentUpon>MenuManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageCustomer.Designer.cs">
+      <DependentUpon>MessageCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderListForCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderListForCust.Designer.cs">
+      <DependentUpon>OrderListForCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetDiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetDiscount.Designer.cs">
+      <DependentUpon>SetDiscount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shopkeeperchooseSoftDrink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shopkeeperchooseSoftDrink.Designer.cs">
+      <DependentUpon>shopkeeperchooseSoftDrink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shopkeeperChooseItemCake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shopkeeperChooseItemCake.Designer.cs">
+      <DependentUpon>shopkeeperChooseItemCake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuShopkeepers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuShopkeepers.Designer.cs">
+      <DependentUpon>MenuShopkeepers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderCustomer.Designer.cs">
+      <DependentUpon>OrderCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveProduct.Designer.cs">
+      <DependentUpon>RemoveProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReplaceOrderRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReplaceOrderRequest.Designer.cs">
+      <DependentUpon>ReplaceOrderRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="signUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signUp.Designer.cs">
+      <DependentUpon>signUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateProduct.Designer.cs">
+      <DependentUpon>UpdateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userDelboy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userDelboy.Designer.cs">
+      <DependentUpon>userDelboy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userMgr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userMgr.Designer.cs">
+      <DependentUpon>userMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userShopkeeper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userShopkeeper.Designer.cs">
+      <DependentUpon>userShopkeeper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Customer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Customer.Designer.cs">
+      <DependentUpon>User_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewOrderShopkeeper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewOrderShopkeeper.Designer.cs">
+      <DependentUpon>ViewOrderShopkeeper.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Addproduct.resx">
+      <DependentUpon>Addproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssiginDeliveryCUSTOMER.resx">
+      <DependentUpon>AssiginDeliveryCUSTOMER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignDeliverytoSHOPkeeper.resx">
+      <DependentUpon>AssignDeliverytoSHOPkeeper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelOrderShopkeeper.resx">
+      <DependentUpon>CancelOrderShopkeeper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customerChooseItemCake.resx">
+      <DependentUpon>customerChooseItemCake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customerChooseitemSoftDrink.resx">
+      <DependentUpon>customerChooseitemSoftDrink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="managerCategoryView.resx">
+      <DependentUpon>managerCategoryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuCustomer.resx">
+      <DependentUpon>MenuCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuDeliveryBoy.resx">
+      <DependentUpon>MenuDeliveryBoy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuManager.resx">
+      <DependentUpon>MenuManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageCustomer.resx">
+      <DependentUpon>MessageCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderListForCust.resx">
+      <DependentUpon>OrderListForCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetDiscount.resx">
+      <DependentUpon>SetDiscount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shopkeeperchooseSoftDrink.resx">
+      <DependentUpon>shopkeeperchooseSoftDrink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shopkeeperChooseItemCake.resx">
+      <DependentUpon>shopkeeperChooseItemCake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuShopkeepers.resx">
+      <DependentUpon>MenuShopkeepers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderCustomer.resx">
+      <DependentUpon>OrderCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RemoveProduct.resx">
+      <DependentUpon>RemoveProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReplaceOrderRequest.resx">
+      <DependentUpon>ReplaceOrderRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signUp.resx">
+      <DependentUpon>signUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateProduct.resx">
+      <DependentUpon>UpdateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userDelboy.resx">
+      <DependentUpon>userDelboy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userMgr.resx">
+      <DependentUpon>userMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userShopkeeper.resx">
+      <DependentUpon>userShopkeeper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Customer.resx">
+      <DependentUpon>User_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewOrderShopkeeper.resx">
+      <DependentUpon>ViewOrderShopkeeper.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGINIMG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Water Glas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Milk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cupcake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spaguetti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnBoiled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AccountIcon white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Twitter_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar 12_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clock_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cart-black.ico" />
+    <None Include="Resources\repp1.png" />
+    <None Include="Resources\Clock_30px2.png" />
+    <None Include="Resources\Checked_30px1.png" />
+    <None Include="Resources\New Message_30px.png" />
+    <None Include="Resources\Logout Rounded Up_30px.png" />
+    <None Include="Resources\Clock_30px1.png" />
+    <None Include="Resources\Collaborator Male_30px.png" />
+    <None Include="Resources\Customer_30px.png" />
+    <None Include="Resources\Businessman_30px.png" />
+    <None Include="Resources\Cancel_30px.png" />
+    <None Include="Resources\Worker_30px1.png" />
+    <None Include="Resources\Worker_30px.png" />
+    <None Include="Resources\Checked_30px.png" />
+    <None Include="Resources\Trash Can_30px.png" />
+    <None Include="Resources\Add List_30px.png" />
+    <None Include="Resources\Clock_30px.png" />
+    <None Include="Resources\In Transit_27px.png" />
+    <None Include="Resources\deliv.png" />
+    <None Include="Resources\cart.png" />
+    <None Include="Resources\repp.png" />
+    <None Include="Resources\Delivery_27px.png" />
+    <None Include="Resources\rep.png" />
+    <None Include="Resources\Remve_27 white.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

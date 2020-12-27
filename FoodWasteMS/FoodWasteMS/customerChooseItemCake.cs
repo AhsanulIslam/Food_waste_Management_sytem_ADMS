@@ -14,7 +14,7 @@ namespace FoodWasteMS
 {
     public partial class customerChooseItemCake : Form
     {
-        string constr = "DATA SOURCE=DESKTOP-Q3KCJHO:1521/XE;USER ID=SYSTEM;password=123";
+        string constr = "DATA SOURCE=DESKTOP-K8R8LDS:1521/XE;USER ID=SYSTEM;password=123";
         DataTable dt = new DataTable();
         int total_price = 0;
        int  counteradd =0;
@@ -289,9 +289,9 @@ namespace FoodWasteMS
             {
 
                 // OracleCommand o = new OracleCommand("insert into ordertab (order_id,countNum,PRODUCT_NAME,quantity,Total_price,PRICE,cust_loc,cust_phone,EXPIRE_DATE,order_date,cust_id,CUST_NAME) values (ordertab_seq.NEXTVAL,TOTALORDERPRICE_SEQ.NEXTVAL,'" + dgvTemp.Rows[i].Cells[0].Value +"','"+ dgvTemp.Rows[i].Cells[1].Value + "','" + dgvTemp.Rows[i].Cells[2].Value + "','" + dgvTemp.Rows[i].Cells[3].Value + "','" + dgvTemp.Rows[i].Cells[4].Value + "','" + dgvTemp.Rows[i].Cells[5].Value + "',TO_DATE('" + this.dtpHide.Text + "','yyyy-MM-dd'),SYSDATE,'" + lblCustId.Text + "','" + lblCustName.Text + "')", con);
-               // OracleCommand cm = new OracleCommand("insert into Cust_ORDER_History (PRODUCT_NAME, quantity, Total_price, priceper, cust_loc, cust_phone, EXPIRE_DATE, order_date, cust_id, cust_name, PRO_ID ) values ('" + dgvTemp.Rows[i].Cells[0].Value + "','" + dgvTemp.Rows[i].Cells[1].Value + "','" + dgvTemp.Rows[i].Cells[2].Value + "','" + dgvTemp.Rows[i].Cells[3].Value + "','" + dgvTemp.Rows[i].Cells[4].Value + "','" + dgvTemp.Rows[i].Cells[5].Value + "',TO_DATE('" + this.dtpHide.Text + "','yyyy-MM-dd'),SYSDATE,'" + lblCustId.Text + "','" + lblCustName.Text + "','" + txtProid.Text + "')", con1);
+                OracleCommand cm = new OracleCommand("insert into Cust_ORDER_History (PRODUCT_NAME,quantity,Total_price,priceper,cust_loc,cust_phone,EXPIRE_DATE,order_date,cust_id,cust_name,PRO_ID ) values ('" + dgvTemp.Rows[i].Cells[0].Value + "','" + dgvTemp.Rows[i].Cells[1].Value + "','" + dgvTemp.Rows[i].Cells[2].Value + "','" + dgvTemp.Rows[i].Cells[3].Value + "','" + dgvTemp.Rows[i].Cells[4].Value + "','" + dgvTemp.Rows[i].Cells[5].Value + "',TO_DATE('" + this.dtpHide.Text + "','yyyy-MM-dd'),SYSDATE,'" + lblCustId.Text + "','" + lblCustName.Text + "','" + txtProid.Text + "')", con1);
 
-            //    cm.ExecuteNonQuery();
+                cm.ExecuteNonQuery();
 
             }
 

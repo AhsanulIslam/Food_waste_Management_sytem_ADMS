@@ -14,7 +14,7 @@ namespace FoodWasteMS
 {
     public partial class Addproduct : Form
     {
-        string constr = "DATA SOURCE=DESKTOP-Q3KCJHO:1521/XE;USER ID=SYSTEM;password=123";
+        string constr = "DATA SOURCE=DESKTOP-K8R8LDS:1521/XE;USER ID=SYSTEM;password=123";
         public Addproduct()
         {
             InitializeComponent();
@@ -45,18 +45,18 @@ namespace FoodWasteMS
         {
 
             OracleConnection con = new OracleConnection(constr);
-            OracleCommand cmd = new OracleCommand("PRODUCTMANAGER.INSERTPRO", con);
+            OracleCommand cmd = new OracleCommand("PRODUCTMANAGER.InsertPro", con);
             cmd.CommandType = CommandType.StoredProcedure;
             con.Open();
             //    try
             //   {
             // cmd.Parameters.Add("proid", OracleDbType.Int32).Value = "PRODUCTINVENTORY_SEQ.NEXTVAL";
            // cmd.Parameters.Add(dtpExpDate.ToString("dd-MMM-yyyy"), OracleDbType.Date).Value = dtpExpDate;
-                cmd.Parameters.Add("TO_DATE(ED, 'yyyy-MM-dd')", OracleDbType.Date).Value = Convert.ToDateTime(dtpExpDate.Text); // Convert.ToDateTime(dtpExpDate.Text );
-                cmd.Parameters.Add("PN", OracleDbType.Varchar2, 50).Value = txtboxProName.Text;
-                cmd.Parameters.Add("CAT", OracleDbType.Int32).Value = cmbCategoryId.Text;
-                cmd.Parameters.Add("QNTY", OracleDbType.Int32).Value = txtboxProQuantity.Text;
-                cmd.Parameters.Add("PR", OracleDbType.Int32).Value = txtboxProPrice.Text;
+                cmd.Parameters.Add("TO_DATE(dat, 'yyyy-MM-dd')", OracleDbType.Date).Value = Convert.ToDateTime(dtpExpDate.Text); // Convert.ToDateTime(dtpExpDate.Text );
+                cmd.Parameters.Add("pnam", OracleDbType.Varchar2, 50).Value = txtboxProName.Text;
+                cmd.Parameters.Add("cid", OracleDbType.Int32).Value = cmbCategoryId.Text;
+                cmd.Parameters.Add("qua", OracleDbType.Int32).Value = txtboxProQuantity.Text;
+                cmd.Parameters.Add("prc", OracleDbType.Int32).Value = txtboxProPrice.Text;
                
 
                 cmd.ExecuteNonQuery();

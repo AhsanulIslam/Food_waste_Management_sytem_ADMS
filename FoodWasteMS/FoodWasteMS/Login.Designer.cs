@@ -307,7 +307,6 @@
             this.txtUser.TabIndex = 0;
             this.txtUser.Text = "imon";
             this.txtUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtUser.TextChanged += new System.EventHandler(this.txtUser_TextChanged);
             // 
             // txtboxSearch
             // 

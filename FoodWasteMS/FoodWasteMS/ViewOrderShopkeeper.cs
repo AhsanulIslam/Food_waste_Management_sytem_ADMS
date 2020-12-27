@@ -13,7 +13,7 @@ namespace FoodWasteMS
 {
     public partial class ViewOrderShopkeeper : Form
     {
-        string constr = "DATA SOURCE=DESKTOP-Q3KCJHO:1521/XE;USER ID=SYSTEM;password=123";
+        string constr = "DATA SOURCE=DESKTOP-K8R8LDS:1521/XE;USER ID=SYSTEM;password=123";
         private MenuShopkeepers s1 { get; set; }
         public ViewOrderShopkeeper(string id,string name,string loc,string p, MenuShopkeepers m)
         {

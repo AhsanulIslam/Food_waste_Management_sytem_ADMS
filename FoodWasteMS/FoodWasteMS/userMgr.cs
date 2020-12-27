@@ -13,7 +13,7 @@ namespace FoodWasteMS
     public partial class userMgr : UserControl
     {
 
-        string constr = "DATA SOURCE=DESKTOP-Q3KCJHO:1521/XE;USER ID=SYSTEM;password=123";
+        string constr = "DATA SOURCE=DESKTOP-K8R8LDS:1521/XE;USER ID=SYSTEM;password=123";
 
         public userMgr()
         {

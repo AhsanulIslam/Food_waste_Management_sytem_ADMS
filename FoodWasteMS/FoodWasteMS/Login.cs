@@ -20,8 +20,8 @@ namespace FoodWasteMS
         {
             InitializeComponent();
         }
-
-        string constr = "DATA SOURCE=DESKTOP-Q3KCJHO:1521/XE;USER ID=SYSTEM;password=123";
+        
+        string constr = "DATA SOURCE=DESKTOP-K8R8LDS:1521/XE;USER ID=SYSTEM;password=123";
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -216,11 +216,6 @@ namespace FoodWasteMS
         private void button11_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
-
-        }
-
-        private void txtUser_TextChanged(object sender, EventArgs e)
-        {
 
         }
 

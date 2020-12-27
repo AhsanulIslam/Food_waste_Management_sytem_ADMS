@@ -13,7 +13,7 @@ namespace FoodWasteMS
 {
     public partial class UpdateProduct : Form
     {
-        string constr = "DATA SOURCE=DESKTOP-Q3KCJHO:1521/XE;USER ID=SYSTEM;password=123";
+        string constr = "DATA SOURCE=DESKTOP-K8R8LDS:1521/XE;USER ID=SYSTEM;password=123";
 
         public UpdateProduct()
         {
@@ -36,7 +36,7 @@ namespace FoodWasteMS
                 cmd.Parameters.Add("CAT", OracleDbType.Int32).Value = cmbCategoryId.Text;
                 cmd.Parameters.Add("QNTY", OracleDbType.Int32).Value = txtboxProQuantity.Text;
                 cmd.Parameters.Add("PR", OracleDbType.Int32).Value = txtboxProPrice.Text;
-                cmd.Parameters.Add("TO_DATE(ED, 'yyyy-MM-dd')", OracleDbType.Date).Value = Convert.ToDateTime(dtpExpDate.Text);
+               cmd.Parameters.Add("TO_DATE(ED, 'yyyy-MM-dd')", OracleDbType.Date).Value = Convert.ToDateTime(dtpExpDate.Text);
 
             
 

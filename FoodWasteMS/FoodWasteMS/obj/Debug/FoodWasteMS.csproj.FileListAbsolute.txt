@@ -39,39 +39,6 @@ C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug
 C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.userMgr.resources
 C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.userDelboy.resources
 C:\Users\imn99\OneDrive\Desktop\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.userShopkeeper.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\FoodWasteMS.exe.config
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.exe
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.pdb
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\FoodWasteMS.exe
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\FoodWasteMS.pdb
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.csprojResolveAssemblyReference.cache
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.Addproduct.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.AssiginDeliveryCUSTOMER.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.AssignDeliverytoSHOPkeeper.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.CancelOrderShopkeeper.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.customerChooseItemCake.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.customerChooseitemSoftDrink.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.History.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.Login.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.managerCategoryView.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MenuCustomer.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MenuDeliveryBoy.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MenuManager.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MessageCustomer.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.OrderListForCust.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.SetDiscount.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.shopkeeperchooseSoftDrink.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.shopkeeperChooseItemCake.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.MenuShopkeepers.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.OrderCustomer.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.Properties.Resources.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.RemoveProduct.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.ReplaceOrderRequest.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.signUp.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.UpdateProduct.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.userDelboy.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.userMgr.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.userShopkeeper.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.User_Customer.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.ViewOrderShopkeeper.resources
-G:\Projects\ADMS\New folder\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.csproj.GenerateResource.Cache
+G:\Projects\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\bin\Debug\FoodWasteMS.exe.config
+G:\Projects\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.exe
+G:\Projects\ADMS\FoodWaste\FoodWasteMS\FoodWasteMS\obj\Debug\FoodWasteMS.pdb

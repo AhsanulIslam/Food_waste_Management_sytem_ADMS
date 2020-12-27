@@ -19,7 +19,7 @@ namespace FoodWasteMS
         {
             InitializeComponent();
         }
-        string constr = "DATA SOURCE=DESKTOP-Q3KCJHO:1521/XE;USER ID=SYSTEM;password=123";
+        string constr = "DATA SOURCE=DESKTOP-K8R8LDS:1521/XE;USER ID=SYSTEM;password=123";
 
 
         private void btnExit_Click(object sender, EventArgs e)
